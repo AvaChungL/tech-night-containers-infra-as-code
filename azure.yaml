@@ -1,0 +1,8 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/Azure/azure-dev/main/schemas/v1.0/azure.yaml.json
+
+name: tech-night-containers-infra-as-code
+services: 
+    api:
+        project: ./src/api
+        language: csharp
+        host: appservice
